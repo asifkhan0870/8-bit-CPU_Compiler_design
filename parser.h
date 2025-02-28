@@ -1,5 +1,4 @@
 #ifndef  PARSER_H
-
 #define PARSER_H
 
 #include "lexer.h"
@@ -36,7 +35,7 @@ class NumberNode : public ASTNode{
 class VariableNode : public ASTNode{
 
     public:
-        static map<string,int>mem,loc;
+        static map<string,int>mem_loc;
         static int counter;
 
         string name;
@@ -121,7 +120,7 @@ class Parser {
         shared_ptr<ASTNode> parseExpStat();
         shared_ptr<ASTNode> parsePrim();
         shared_ptr<ASTNode> parseVarDec();
-        shared_ptr<ASTNode> parseVarDec();
+        // shared_ptr<ASTNode> parseVarDec();
         shared_ptr<ASTNode> parseVarAssign();
         shared_ptr<ASTNode> parseCond();
         shared_ptr<ASTNode> parseBlock();

@@ -1,5 +1,5 @@
 #ifndef LEXER_H
-#define LeXER_H
+#define LEXER_H
 
 #include<string>
 #include<vector>

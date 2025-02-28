@@ -40,7 +40,7 @@ vector<Token>Lexer:: tokenize(){
             else if(ident=="else")tokens.push_back({Tokentype::ELSE,"else"});
 
             else{
-                tokens.push_back({Tokentype::IDENTIFIER,ident});
+                tokens.push_back({Tokentype::INDENTIFIER,ident});
             }
         }
         else if(isdigit(curr){
@@ -86,16 +86,17 @@ vector<Token>Lexer:: tokenize(){
                 case '}' : tokens.push_back({Tokentype::PLUS,"}"});break;
                 case ';' : tokens.push_back({Tokentype::SEMICOLON,";"});break;
 
-                default:  cout<<"unknown character"<<curr<<endl;
+                default:  cerr<<"unknown character"<<curr<<endl;
 
 
             }
+
             pos++;
         }
     }
 
 
-    tokens.push_back({Tokentype::END,""});
+    tokens.push_back({Tokentype:: END," "});
 
     return tokens;
 }

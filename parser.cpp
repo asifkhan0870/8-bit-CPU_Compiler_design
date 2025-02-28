@@ -3,11 +3,15 @@
 
 #include<iostream>
 #include<algorithm>
+#include<map>
+
 
 using namespace std;
 
 
 map <string,int> VariableNode :: mem_loc;
+
+
 
 int VariableNode :: counter =1;
 
@@ -216,7 +220,7 @@ shared_ptr<ASTNode>Parser::parseStat(){
         return parseCond();
     }
     else if(match({Tokentype::  INDENTIFIER})){
-        
+
         cout<<" Found variable "<<endl;
         return parseVarAssign();
     }
