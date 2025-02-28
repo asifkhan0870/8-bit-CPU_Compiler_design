@@ -22,7 +22,7 @@ vector<Token> Lexer::tokenize(){
                         break;
                     cur = source[pos];
                 }
-                if(identifier == "int") tokens.push_back({Tokentype::INT,"int"});
+                if(identifier == "int")tokens.push_back({Tokentype::INT,"int"});
                 else if (identifier =="if") tokens.push_back({Tokentype::IF,"if"});
                 else if (identifier == "else") tokens.push_back({Tokentype::ELSE,"else"});
                 else tokens.push_back({Tokentype::IDENTIFIER,identifier});
@@ -62,6 +62,7 @@ vector<Token> Lexer::tokenize(){
                     pos++;
                 }
     }
+
     tokens.push_back({Tokentype::END,""});
     return tokens;
 }

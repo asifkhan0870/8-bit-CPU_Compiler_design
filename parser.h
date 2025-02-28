@@ -67,7 +67,7 @@ class ConditionalNode : public ASTNode {
 
 class BlockNode : public ASTNode {
     public:
-        vector<shared_ptr<ASTNode>> statements;
+        vector<shared_ptr<ASTNode> > statements;
         BlockNode(){}
         void addStat(shared_ptr<ASTNode> statement);
         void generateCode(ostream &out);
