@@ -73,13 +73,14 @@ step 4:
 
 # structure of compiler   
 
- ![image] ()
+ ![image](/images/1.jpeg)
 
- ![image] ()
+ ![image](/images/2.jpeg)
 
- ![image]()
+ ![image](/images/3.jpeg)
 
- ![image] ()
+ ![image](/images/4.jpeg)
+ ![image](/images/5.jpeg)
 
 
 
