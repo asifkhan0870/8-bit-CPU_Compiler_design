@@ -31,7 +31,7 @@ When you run then it will generate the assmebly code of you input.txt file text
 
 input text file 
 
-![input.txt] (images/)
+![input.txt](images/input.png)
 
 output file
 
@@ -58,6 +58,16 @@ step 3: make a file example.asm or any other name and paste the assembly code ge
 ```    
 
 
+step 4:  
+
+```
+  make clean && make run 
+
+```
+
+* your final output looks like this 
+
+![image](/images/final.png)
 
 
 
