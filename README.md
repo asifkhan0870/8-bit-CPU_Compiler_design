@@ -35,7 +35,7 @@ input text file
 
 output file
 
-![output.asm] (images/output.png)
+![output.asm](images/output.png)
 
 
 # Where have to paste the assemply code 
