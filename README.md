@@ -31,11 +31,11 @@ When you run then it will generate the assmebly code of you input.txt file text
 
 input text file 
 
-![input.txt] ()
+![input.txt] (images/)
 
 output file
 
-![output.asm] ( )
+![output.asm] (images/output.png)
 
 
 # Where have to paste the assemply code 
